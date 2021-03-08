@@ -1,0 +1,25 @@
+.photoGrid{
+    margin: 50px auto 20px auto;
+    align-items: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
+    grid-row-gap: 20px;
+}
+
+.active{
+  display: block;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top:0 ;
+  width:100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, 0.938); }
+  .active-image {
+  margin: auto;
+  display: block;
+  width: auto;
+  max-width: 700px;
+}

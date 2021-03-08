@@ -1,0 +1,64 @@
+.descriptionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:50px 50px;
+}
+
+.generalInfo{
+    width: 550px;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.extraInfo{
+    width:330px;
+    border:0.5px solid rgb(138, 138, 138);
+    padding:20px;
+    position: relative;
+}
+
+.extraInfo>div{
+    font-weight: 500;
+    margin:10px 0px;
+    padding: 5px;
+    border-bottom: 0.5px solid rgb(218, 218, 218);
+}
+
+.separate{
+    display: flex;
+    justify-content: space-between;
+}
+
+#greenBox{
+    font-variant: all-petite-caps;
+    background-color: #c2ebd3;
+    border-radius: 5px;
+    padding:5px;
+}
+
+#darkbox{
+    display: inline-block;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    background: #3cb46e;
+    padding: 3px;
+}
+
+.photoSubmit{
+    display: inline-block;
+    margin-top:20px;
+    width: 330px;
+    border: none;
+    background-color: #000;
+    color:#fff;
+    height: 45px;
+    font-weight: 400;
+}
+.photoSubmit>span{
+    font-weight: 600;
+}
+.photoSubmit:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 400px) {
+  .images{
+    width:90vw;
+  }
+  .descriptionContainer{
+    
+    padding:50px 30px;
+}
+h5,h6{
+  margin:10px 0px;
+}
+
+}
